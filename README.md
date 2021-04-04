@@ -15,7 +15,7 @@ I have provided 2 classes which is the Signature class and the JCrypt class
   Signature sign = new Signature();
   
 	Constructor Parameters
-		Signature(String signatureName, int signatureValue);  <- generated key will be manual
+		Signature(String signatureName, int signatureValue);  <- generated key will be manual/fixed
 		Signature(String signatureName);                      <- generated key will be random
 		Signature();                                          <- generated key will be random
 	
@@ -26,7 +26,7 @@ I have provided 2 classes which is the Signature class and the JCrypt class
 	    where:
             -0 is a random digit
             -x is a random capital letters
-            -z is a random capital letters but is used to determine if the generated key is (R)random or (M)manual
+            -z is a random capital letters but is used to determine if the generated key is (R)random or (M)manual/fixed
 						
 (JCrypt class)
 	This class will will use the key that is provided by the
